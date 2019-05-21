@@ -81,14 +81,22 @@ form b {
 /*Child Selector*/
 
 fieldset>p {
-	color:white;
+	color:grey;
+}
+
+label>i { 
+	color: Red; 
 }
 	
 /*Sibling Selector*/
 	
-form+legend {
-	font-style:italic;
-}
+h1 ~ p {font-style: italic;} 
+
+
+	
+	
+	
+	
 	
 	/*medium screen*/
 
